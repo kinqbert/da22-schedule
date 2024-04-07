@@ -1,6 +1,6 @@
 import "./Card.scss";
 
-const Card = ({{name, lecturer, type, link}}) => {
+const Card = ({name, lecturer, type, link}) => {
 
   return (
     <div className="Card">
